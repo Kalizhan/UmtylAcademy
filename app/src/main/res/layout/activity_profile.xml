@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.ProfileActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="-77dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cardview_profile"
+                    android:paddingBottom="43dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/rel"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginTop="26dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:id="@+id/backBtn"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/vector_white" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentEnd="true"
+                                    android:src="@drawable/umtyl_without_text" />
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+<!--                        <de.hdodenhof.circleimageview.CircleImageView-->
+<!--                            android:id="@+id/profile_image"-->
+<!--                            android:layout_width="100dp"-->
+<!--                            android:layout_height="100dp"-->
+<!--                            android:layout_gravity="center_horizontal"-->
+<!--                            android:src="@drawable/user"/>-->
+
+                        <TextView
+                            android:id="@+id/tv_fullname_profile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="9dp"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="15dp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/tv_email_profile"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textSize="14dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/changeProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="28dp"
+                    android:background="@drawable/main_button_background"
+                    android:paddingStart="18dp"
+                    android:text="@string/change_profile"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white" />
+
+<!--                <Button-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginHorizontal="20dp"-->
+<!--                    android:layout_marginTop="9dp"-->
+<!--                    android:background="@drawable/main_button_background"-->
+<!--                    android:paddingStart="18dp"-->
+<!--                    android:text="@string/my_besties"-->
+<!--                    android:textAlignment="textStart"-->
+<!--                    android:textColor="@color/white" />-->
+
+                <Button
+                    android:id="@+id/btnCart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/main_button_background"
+                    android:paddingStart="18dp"
+                    android:text="@string/cart_items"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white"
+                    android:onClick="goToCart"/>
+
+                <Button
+                    android:id="@+id/changeLangBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/main_button_background"
+                    android:paddingStart="18dp"
+                    android:text="@string/change_lang"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white" />
+
+                <Button
+                    android:id="@+id/btnAboutUs"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="20dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/main_button_background"
+                    android:paddingStart="18dp"
+                    android:text="@string/about"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/white" />
+
+<!--                <TextView-->
+<!--                    android:id="@+id/tv_logout_profile"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="38dp"-->
+<!--                    android:layout_marginTop="15dp"-->
+<!--                    android:text="@string/logout"-->
+<!--                    android:textColor="@color/project_main"-->
+<!--                    android:textStyle="bold" />-->
+
+<!--                <View-->
+<!--                    android:layout_width="47dp"-->
+<!--                    android:layout_height="2dp"-->
+<!--                    android:background="@color/project_main"-->
+<!--                    android:layout_marginStart="38dp" />-->
+
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

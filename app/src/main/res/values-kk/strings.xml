@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">UmtylAcademy</string>
+
+    <string name="email">Email</string>
+    <string name="password">Пароль</string>
+    <string name="registration">Тіркелу</string>
+    <string name="registration2">Тіркелу</string>
+    <string name="enter">Кіру</string>
+    <string name="enter2">Кіру</string>
+    <string name="name">Аты</string>
+    <string name="surname">Жөні</string>
+    <string name="phone">Номері</string>
+    <string name="cont">Жалғастыру</string>
+    <string name="check_inbox">ПОчтаңызды тексеріңіз</string>
+    <string name="create_password">Пароль ойлап табыңыз</string>
+    <string name="correct_email">Дұрыс толтырыңыз</string>
+    <string name="have_acc">Менде аккаунт бар</string>
+    <string name="error_complete">Толықтырыңыз</string>
+    <string name="error_user">Мұндай қолданушы жоқ</string>
+    <string name="wait">Күтіңіз...</string>
+    <string name="forget_password">Парольіңізді ұмыттыңыз ба?</string>
+    <string name="check_internet">Интернет желісің тексеріңіз</string>
+    <string name="text_forget_password">Электрондық поштаңызды енгізіңіз, содан кейін поштаға құпия сөзді өзгерту туралы хабарлама жіберіледі </string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="course_page">Курс</string>
+    <string name="test_page">Тест</string>
+    <string name="game_page">Ойын</string>
+    <string name="music_page">Музыка</string>
+    <string name="change_profile">Профильді өңдеу </string>
+    <string name="my_besties">Менің жетістіктерім </string>
+    <string name="change_lang">Тілді өзгерту</string>
+    <string name="about">Біз туралы</string>
+    <string name="profile">Профиль</string>
+    <string name="lang">RU/KZ</string>
+    <string name="all_courses">Бүкіл курстар</string>
+    <string name="our_lessons">Біздің сабақтар</string>
+    <string name="my_courses">Менің курстарым</string>
+    <string name="cart_items">Себет</string>
+    <string name="my_orders">Менің тапсырыстарым</string>
+    <string name="already_orders">Қазірдің өзінде бар тапсырыстар </string>
+    <string name="all_videos">Бүкіл видеолар:</string>
+    <string name="price">Бағасы:</string>
+    <string name="remind">Ескерту</string>
+
+    <string name="ask">Сенімдісіз бе?</string>
+    <string name="logout">Шығу</string>
+    <string name="loading">Жүктеу</string>
+    <string name="pls_wait">Өтініш, күте тұрыңыз</string>
+
+    <string name="algebra">Алгебра</string>
+    <string name="attestat">Аттестация</string>
+    <string name="belbin_test">Белбин тесті</string>
+    <string name="biology">Биология</string>
+    <string name="chemistry">Химия</string>
+    <string name="eng_lang">Ағылшын тілі</string>
+    <string name="geography">География</string>
+    <string name="geography2">Жаратылыстану</string>
+    <string name="geometry">Геометрия</string>
+    <string name="inform">Информатика</string>
+    <string name="kval_test">Квал тест</string>
+    <string name="kz_history">Қазақстан тарихы</string>
+    <string name="kz_lang">Қазақ тілі</string>
+    <string name="kz_literature">Қазақ әдебиеті</string>
+    <string name="law">Құқық</string>
+    <string name="logic_questions">Логикалық сұрақтар</string>
+    <string name="management">Менеджмент</string>
+    <string name="math">Математика</string>
+    <string name="metodist_test">Методист тест</string>
+    <string name="music">Өлең</string>
+    <string name="oz_oz">Өзін-өзі тану</string>
+    <string name="physics">Физика</string>
+    <string name="primary_class">Бастауыш сынып</string>
+    <string name="psychology">Психология</string>
+    <string name="read_property">Оқу сауаттылығы</string>
+    <string name="ru_lang">Орыс тілі</string>
+    <string name="technology">Технология</string>
+    <string name="world_history">Дүниежүзі тарихы</string>
+
+    <string name="question_size">Сұрақ саны:</string>
+    <string name="timer">Берілген уақыт:</string>
+    <string name="questions">сұрақ</string>
+    <string name="start_test">Тестті бастау</string>
+    <string name="history">Тарих</string>
+    <string name="finish">Аяқтау</string>
+    <string name="question">Сұрақ</string>
+    <string name="answers">Жауаптары</string>
+    <string name="next">Келесі</string>
+    <string name="test_result">Тест нәтижелері </string>
+    <string name="lesson">Сабақ</string>
+    <string name="back_to_main">Басты бетке өту</string>
+    <string name="search_music">Музыка іздеу</string>
+
+    <string name="last_updated">Соңғы жаңарту:</string>
+    <string name="course_lang">Курс тілі:</string>
+    <string name="buy_now">Қазір сатып алу</string>
+    <string name="add_to_cart">Себетке салу</string>
+    <string name="what_learn">Сіз не үйренесіз?</string>
+    <string name="study_plan">Сабақ жоспары</string>
+    <string name="lessons_lower">сабақ</string>
+    <string name="empty_my_courses">Сізде қолжетімді курстар жоқ</string>
+
+<!--    <string name="buy_course">Чтобы купить курс «Подготовка к аттестации» заплатите 9900 тенге и отправьте мне чек в WhatsApp. Тогда мы вышлем вам доступ.</string>-->
+    <string name="whats_link"><u>http://wa.me/+77076667585</u></string>
+    <string name="whatsapp_num">WhatsApp: 8 707 666 75 85</string>
+    <string name="kaspi_num">Kaspi номер: 8707666 7585</string>
+    <string name="kaspi_num_16">Kaspi: 4400 5418 2346 23815</string>
+    <string name="zapis">Сабақтарға жазылыңыз сілтемені басыңыз:</string>
+    <string name="answer_managers">(Біздің менеджерлер сізге жауап береді)</string>
+    <string name="error">Қате</string>
+    <string name="first_part">Курс сатып алу үшін </string>
+    <string name="second_part">9900 теңге төлеп, ватсапқа чек жіберіңіз. Содан кейін біз сізге рұқсатты жібереміз.</string>
+    <string name="courses">Курстар</string>
+
+    <string name="check_course">"Менің курстарым" бетін қараңыз</string>
+    <string name="added_to_cart">Себетке салынды</string>
+    <string name="to_view_buy_course">Видео қарау үшін, курсты сатып алаңыз</string>
+    <string name="change_password">Парольді өзгерту</string>
+    <string name="send_pass">Электрондық поштаңызды төменде енгізіңіз. Біз сіздің поштаңызға парольді ауыстыруға арналған электрондық хат жібереміз</string>
+    <string name="send">Жіберу</string>
+    <string name="yes">Иә</string>
+    <string name="no">Жоқ</string>
+    <string name="sent">Жіберілді, поштаңызды тексеріңіз</string>
+    <string name="empty">Бұл тест әлі енгізілмеген</string>
+    <string name="changed">Өзгертілді</string>
+    <string name="haded">Бұл курс сізде бар</string>
+    <string name="checkMistake">Қатемен жұмыс</string>
+    <string name="your_chose">Сіздің таңдауыңыз</string>
+    <string name="yourQuestSize">Сіз жауап берген сұрақтар саны:</string>
+    <string name="emptyScore">Сіз сұрақтарға жауап бермедіңіз</string>
+    <string name="about_us_1">Жаңа заманның кемел ұстаздарына арналған жоба. Мұғалімдердің, тәрбиешілердің, басшылардың психология, басқару, маркетинг, компьютердегі программаларды меңгеру әдістерін жаңа заманға cай үйрету.</string>
+    <string name="about_us_2">Аттестацияға, квалтест, мектеп бағдарламалары, менеджмент одан да көп тесттепді тапсыра отыра білім деңгейін нығайту.</string>
+    <string name="about_us_3">Ұстаздардың квалификациясын көтеру. Ұстаздар дами отыра оқушыларды білімге қызықтыру, дедактикалық әдістерді толық меңгеруге болады.</string>
+</resources>

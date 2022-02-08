@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.TestStartActivity"
+    android:background="@color/project_main">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <Toolbar
+                    android:id="@+id/toolbarMain"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/project_main"
+                    android:gravity="center"
+                    android:minHeight="?attr/actionBarSize">
+
+                    <ImageView
+                        android:id="@+id/backToTest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/vector_white" />
+                </Toolbar>
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toBottomOf="@+id/appBar"
+                android:paddingHorizontal="21dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:text="Тест"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="27dp"
+                    android:layout_height="2dp"
+                    android:layout_marginStart="21dp"
+                    android:background="@drawable/main_button_background" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp">
+
+                    <Button
+                        android:id="@+id/timerBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:layout_alignParentStart="true"
+                        android:background="@drawable/white_main_bg"
+                        android:text="20:20"
+                        android:textColor="@color/project_main" />
+
+                    <Button
+                        android:id="@+id/btnFinishTest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="34dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/white_main_bg"
+                        android:paddingHorizontal="10dp"
+                        android:text="@string/finish"
+                        android:textColor="@color/project_main" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="17dp"
+                    android:text="@string/question"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/white_second"
+                    android:padding="14dp"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:id="@+id/questionName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:textColor="@color/project_main"
+                        android:textSize="16dp"
+                        android:text=""/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/answers"
+                    android:textColor="@color/black"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/quest1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_second"
+                    android:textColor="@color/project_main"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="14dp"
+                    android:onClick="OptionAClick"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/quest2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_second"
+                    android:textColor="@color/project_main"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:onClick="OptionBClick"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/quest3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_second"
+                    android:textColor="@color/project_main"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:onClick="OptionCClick"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/quest4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/white_second"
+                    android:textColor="@color/project_main"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    android:onClick="OptionDClick"/>
+
+<!--                <Button-->
+<!--                    android:id="@+id/btnNextQuestion"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="@string/next"-->
+<!--                    android:background="@drawable/bg_next"-->
+<!--                    android:layout_marginTop="42dp"-->
+<!--                    android:textColor="@color/project_main"/>-->
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

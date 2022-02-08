@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "349956790294",
+    "firebase_url": "https://umtyl-academy-a0b5a-default-rtdb.firebaseio.com",
+    "project_id": "umtyl-academy-a0b5a",
+    "storage_bucket": "umtyl-academy-a0b5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349956790294:android:b76c096f169e2c21dc7d37",
+        "android_client_info": {
+          "package_name": "com.admin.adminumtylacademy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349956790294-0gap33egb7lh2ouen5a559443fmgkjpb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.admin.adminumtylacademy",
+            "certificate_hash": "2c484d715a371194750a4e4b471fec591649ed8f"
+          }
+        },
+        {
+          "client_id": "349956790294-op96e21e7htc2l3e3vkp3ud4npjrogut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv-qB20v5rfqHE9yIKUevw8KqwC0r8PoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349956790294-op96e21e7htc2l3e3vkp3ud4npjrogut.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "349956790294-0gt0cfc98coovtu19s8nsar0k2o5hojc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.umtyl"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:349956790294:android:c36e95630213aee1dc7d37",
+        "android_client_info": {
+          "package_name": "com.main.umtylacademyuser"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "349956790294-rdccp997avjumcffg1oileoetj3nau2f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.main.umtylacademyuser",
+            "certificate_hash": "2c484d715a371194750a4e4b471fec591649ed8f"
+          }
+        },
+        {
+          "client_id": "349956790294-op96e21e7htc2l3e3vkp3ud4npjrogut.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCv-qB20v5rfqHE9yIKUevw8KqwC0r8PoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "349956790294-op96e21e7htc2l3e3vkp3ud4npjrogut.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "349956790294-0gt0cfc98coovtu19s8nsar0k2o5hojc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.umtyl"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

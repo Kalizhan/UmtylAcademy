@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mCourse"
+        android:title="@string/course_page"
+        android:icon="@drawable/course_icon"/>
+
+    <item android:id="@+id/mUmtyl"
+        android:title="" />
+
+    <item android:id="@+id/mTest"
+        android:title="@string/test_page"
+        android:icon="@drawable/test_icon"/>
+
+<!--    <item android:id="@+id/mGame"-->
+<!--        android:title="@string/game_page"-->
+<!--        android:icon="@drawable/game_icon"/>-->
+<!--    <item android:id="@+id/mMusic"-->
+<!--        android:title="@string/music_page"-->
+<!--        android:icon="@drawable/music_icon"/>-->
+</menu>
